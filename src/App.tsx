@@ -2,10 +2,10 @@ import {
   Box,
   Button,
   Clipboard,
-  Em,
   Flex,
   Heading,
   IconButton,
+  Image,
   Input,
   Stack,
   Text
@@ -15,11 +15,13 @@ import { ColorModeButton } from './components/color-mode-button'
 import { Copyright } from './components/copyright'
 import { ExamplesSection } from './components/examples'
 
+import AppLogo from "./assets/app-logo.png"
+
 function App() {
   return (
     <>
       <Flex as={"nav"} justify={"space-between"} align={"center"} bg={"bg.default"} padding={"15px"} shadow={"sm"}>
-        <Heading><Em>Fidely UI</Em></Heading>
+        <Image src={AppLogo} width={"120px"} />
 
         <Flex align={'center'} gap={"1"}>
           <Text>Switch mode</Text>
