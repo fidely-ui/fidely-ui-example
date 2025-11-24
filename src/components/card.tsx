@@ -5,7 +5,7 @@ export const CardComponent = () => {
   return (
     <Box>
       <Text mb={"3"}>Card and Persona components</Text>
-      <Card.Root maxW={"350px"}>
+      <Card.Root>
         <Card.Body gap="2">
           <Card.Header>
             <Flex
