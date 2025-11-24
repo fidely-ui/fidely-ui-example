@@ -2,8 +2,8 @@ import { Button, CloseButton, Dialog, Flex, Portal, Text } from "@fidely-ui/reac
 
 export const Modal = () => {
   return (
-    <Flex align={"center"} gap={"3"}>
-      <Text mb={"3"}>Modal components</Text>
+    <Flex align={"center"} justify={"center"} gap={"3"}>
+      <Text mb={"3"} my={"3"}>Modal components</Text>
 
       <Dialog.Root>
         <Dialog.Trigger asChild>

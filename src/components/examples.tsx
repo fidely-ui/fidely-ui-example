@@ -1,16 +1,19 @@
-import { Button, Flex } from "@fidely-ui/react"
+import { Button, Stack } from "@fidely-ui/react"
 import { CardComponent } from "./card"
 import { Modal } from "./modal"
 import { SpinnerComponent } from "./spinner"
+import { ComboboxWithPersona } from "./combobox"
 
 export const ExamplesSection = () => {
   return (
-    <Flex justify={"center"} alignItems={"center"} flexDirection={"column"} gap={4}>
+    <Stack width={'30%'} mx={"auto"} gap={4}>
       <CardComponent />
 
       <Modal />
 
       <SpinnerComponent />
+
+      <ComboboxWithPersona />
 
       <Button
         asChild
@@ -24,6 +27,6 @@ export const ExamplesSection = () => {
           Checkout Fidely UI for more components
         </a>
       </Button>
-    </Flex>
+    </Stack>
   )
 }

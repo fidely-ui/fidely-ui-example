@@ -42,7 +42,7 @@ function App() {
         >
           <Heading
             as="h1"
-            textStyle={{ base: '3xl', md: '7xl' }}
+            textStyle={{ base: '3xl', md: '8xl' }}
             textAlign="center"
             color={'orange.9'}
             lineHeight={'1.4em'}
@@ -91,7 +91,7 @@ function App() {
           </Stack>
         </Box>
       </Box>
-
+    
       <ExamplesSection />
 
       <Box as={"footer"} mt={"8px"}>
