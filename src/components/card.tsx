@@ -16,7 +16,7 @@ export const CardComponent = () => {
                 name={"Henry John"}
                 title={"title"}
                 img={"http://bit.ly/47jPX1D"}
-                imgSize="xl"
+                size="xl"
               />
 
               <a
